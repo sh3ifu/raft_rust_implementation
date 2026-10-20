@@ -8,3 +8,13 @@
 //!
 //! Keeping the core pure lets the exact same code run inside a deterministic
 //! simulator during testing and inside a real networked runtime in production.
+
+mod entry;
+mod message;
+mod types;
+
+pub use entry::LogEntry;
+pub use message::{
+    AppendEntriesRequest, AppendEntriesResponse, Message, RequestVoteRequest, RequestVoteResponse,
+};
+pub use types::{LogIndex, NodeId, Term};
