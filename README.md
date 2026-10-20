@@ -1,5 +1,7 @@
 # raft_rust_implementation
 
+[![CI](https://github.com/sh3ifu/raft_rust_implementation/actions/workflows/ci.yml/badge.svg)](https://github.com/sh3ifu/raft_rust_implementation/actions/workflows/ci.yml)
+
 An implementation of the [Raft consensus algorithm](https://raft.github.io/) in Rust,
 built from scratch as a learning project and grown step by step towards production quality.
 
